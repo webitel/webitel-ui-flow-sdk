@@ -1,16 +1,36 @@
 {
-  "name": "webitel-flow-ui-sdk",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@webitel/flow-ui-sdk",
+  "version": "0.1.8",
+  "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve-lib": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name flow-ui-sdk ./src/install.js",
+    "build:app": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint --fix",
+    "publish-lib": "npm run test:unit && npm run build && npm publish --access public",
+    "publish-lib:testless": "npm run build && npm publish --access public",
+    "prepare": "husky install"
   },
+  "main": "./dist/@webitel/flow-ui-sdk.common.js",
+  "files": [
+    "dist/*",
+    "src/locale/*",
+    "src/css/*",
+    "src/components/*",
+    "src/enums/*",
+    "src/lookups/*",
+    "src/mixins/*",
+    "src/scripts/*",
+    "src/modules/*",
+    "src/store/*"
+  ],
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
-    "vue-router": "^3.5.1"
+    "vue-i18n": "^8.27.2",
+    "vue-router": "^3.5.1",
+    "webitel-sdk": "^0.1.157"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -24,6 +44,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-vue": "^8.0.3",
     "eslint-plugin-vuejs-accessibility": "^1.1.0",
+    "husky": "^8.0.1",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
