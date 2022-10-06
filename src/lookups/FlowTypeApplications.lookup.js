@@ -25,6 +25,7 @@ const general = [
   FlowApp.SEND_EMAIL,
   FlowApp.GOTO,
   FlowApp.BROADCAST_CHAT_MESSAGE,
+  FlowApp.GET_EMAIL,
 ];
 
 const FlowTypeApplications = Object.freeze({

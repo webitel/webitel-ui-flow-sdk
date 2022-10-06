@@ -1,6 +1,6 @@
 {
   "name": "@webitel/flow-ui-sdk",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "scripts": {
     "serve-lib": "vue-cli-service serve",
