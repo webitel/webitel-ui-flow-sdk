@@ -64,6 +64,7 @@ const FlowApp = Object.freeze({
   FORM_RICH_TEXT_EDITOR: 'formRichTextEditor',
   GENERATE_FORM: 'generateForm',
   ATTEMPT_RESULT: 'attemptResult',
+  GET_EMAIL: 'getEmail',
 });
 
 export default FlowApp;
