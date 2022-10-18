@@ -65,6 +65,7 @@ const FlowApp = Object.freeze({
   GENERATE_FORM: 'generateForm',
   ATTEMPT_RESULT: 'attemptResult',
   GET_EMAIL: 'getEmail',
+  FORM_FILE: 'formFile',
 });
 
 export default FlowApp;
