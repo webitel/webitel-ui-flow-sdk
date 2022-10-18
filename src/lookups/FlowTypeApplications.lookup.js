@@ -26,6 +26,7 @@ const general = [
   FlowApp.GOTO,
   FlowApp.BROADCAST_CHAT_MESSAGE,
   FlowApp.GET_EMAIL,
+  FlowApp.FORM_FILE,
 ];
 
 const FlowTypeApplications = Object.freeze({
