@@ -11,7 +11,7 @@ export default {
         [EngineRoutingSchemaType.Voice]: 'Voice',
         [EngineRoutingSchemaType.Service]: 'Service',
         [EngineRoutingSchemaType.Processing]: 'Forms',
-        [EngineRoutingSchemaType.Default]: 'Default',
+        [EngineRoutingSchemaType.Default]: 'No type',
       },
     },
   },

@@ -8,7 +8,7 @@ export default {
         [EngineRoutingSchemaType.Voice]: 'Голосовая',
         [EngineRoutingSchemaType.Service]: 'Служебная',
         [EngineRoutingSchemaType.Processing]: 'Формы',
-        [EngineRoutingSchemaType.Default]: 'По умолчанию',
+        [EngineRoutingSchemaType.Default]: 'Нет типа',
       },
     },
   },
