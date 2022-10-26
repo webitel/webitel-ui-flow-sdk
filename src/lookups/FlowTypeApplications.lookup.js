@@ -26,6 +26,11 @@ const general = [
   FlowApp.GOTO,
   FlowApp.BROADCAST_CHAT_MESSAGE,
   FlowApp.GET_EMAIL,
+  FlowApp.GET_QUEUE_AGENTS,
+  // FlowApp.GET_QUEUE_METRICS,
+  FlowApp.MEMBER_INFO,
+  FlowApp.PATCH_MEMBERS,
+  FlowApp.CALLBACK_QUEUE,
 ];
 
 const FlowTypeApplications = Object.freeze({
@@ -54,17 +59,13 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.TTS,
     FlowApp.JOIN_QUEUE,
     FlowApp.JOIN_AGENT,
-    FlowApp.GET_QUEUE_AGENTS,
-    // FlowApp.GET_QUEUE_METRICS,
     // FlowApp.CC_POSITION,
     // FlowApp.AWT,
-    FlowApp.MEMBER_INFO,
-    FlowApp.PATCH_MEMBERS,
-    FlowApp.CALLBACK_QUEUE,
     // FlowApp.LAST_BRIDGED,
   ],
   [EngineRoutingSchemaType.Chat]: [
     ...general,
+    FlowApp.TRIGGER,
     FlowApp.MENU,
     FlowApp.RECV_MESSAGE,
     FlowApp.SEND_TEXT,
@@ -73,14 +74,8 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.CLASSIFIER,
     FlowApp.JOIN_QUEUE,
     FlowApp.JOIN_AGENT,
-    FlowApp.JOIN_AGENT,
-    FlowApp.GET_QUEUE_AGENTS,
-    // FlowApp.GET_QUEUE_METRICS,
     // FlowApp.CC_POSITION,
     // FlowApp.AWT,
-    FlowApp.MEMBER_INFO,
-    FlowApp.PATCH_MEMBERS,
-    FlowApp.CALLBACK_QUEUE,
 
   ],
   [EngineRoutingSchemaType.Processing]: [
@@ -96,12 +91,7 @@ const FlowTypeApplications = Object.freeze({
   ],
   [EngineRoutingSchemaType.Service]: [
     ...general,
-    FlowApp.GET_QUEUE_AGENTS,
-    // FlowApp.GET_QUEUE_METRICS,
     // FlowApp.AWT,
-    FlowApp.MEMBER_INFO,
-    FlowApp.PATCH_MEMBERS,
-    FlowApp.CALLBACK_QUEUE,
     // FlowApp.CONFIRM,
     // FlowApp.CANCEL,
     // FlowApp.ABANDONED,
