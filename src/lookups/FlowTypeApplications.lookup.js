@@ -31,6 +31,7 @@ const general = [
   FlowApp.MEMBER_INFO,
   FlowApp.PATCH_MEMBERS,
   FlowApp.CALLBACK_QUEUE,
+  FlowApp.WHILE,
 ];
 
 const FlowTypeApplications = Object.freeze({
