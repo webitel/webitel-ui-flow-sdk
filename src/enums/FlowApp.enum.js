@@ -56,6 +56,7 @@ const FlowApp = Object.freeze({
   CLASSIFIER: 'classifier',
   MENU: 'menu',
   BROADCAST_CHAT_MESSAGE: 'broadcastChatMessage',
+  CHAT_HISTORY: 'chatHistory',
 
   FORM_TEXTFIELD: 'formTextfield',
   FORM_SELECT: 'formSelect',
