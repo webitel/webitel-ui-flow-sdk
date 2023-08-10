@@ -4,7 +4,7 @@ const FlowApp = Object.freeze({
   FUNCTION: 'function',
   GOTO: 'goto',
   IF: 'if',
-  JS: 'js',
+  SCRIPT: 'script',
   MATH: 'math',
   START: 'start',
   STOP: 'stop',
