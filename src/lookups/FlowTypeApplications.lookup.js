@@ -12,7 +12,7 @@ const general = [
   FlowApp.EXPORT_VARIABLES,
   FlowApp.UN_SET_VARIABLES,
   FlowApp.HTTP_REQUEST,
-  FlowApp.SCRIPT,
+  FlowApp.JS,
   FlowApp.MATH,
   FlowApp.STRING,
   FlowApp.USER_INFO,
