@@ -14,6 +14,7 @@ const general = [
   FlowApp.HTTP_REQUEST,
   FlowApp.JS,
   FlowApp.MATH,
+  FlowApp.MONO_PAY,
   FlowApp.STRING,
   FlowApp.USER_INFO,
   FlowApp.SCHEMA,
