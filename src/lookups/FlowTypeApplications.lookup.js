@@ -24,6 +24,7 @@ const general = [
   FlowApp.LIST_ADD,
   FlowApp.LOG,
   FlowApp.SEND_EMAIL,
+  FlowApp.SEND_MESSAGE,
   FlowApp.GOTO,
   FlowApp.BROADCAST_CHAT_MESSAGE,
   FlowApp.GET_EMAIL,
