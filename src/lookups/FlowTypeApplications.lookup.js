@@ -74,6 +74,7 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.RECV_MESSAGE,
     FlowApp.SEND_TEXT,
     FlowApp.SEND_FILE,
+    FlowApp.STT,
     FlowApp.GENERATE_LINK,
     FlowApp.CLASSIFIER,
     FlowApp.JOIN_QUEUE,
