@@ -56,7 +56,7 @@ const FlowApp = Object.freeze({
   SEND_FILE: 'sendFile',
   SEND_EMAIL: 'sendEmail',
   SEND_TTS: 'sendTts',
-  STT: 'stt',
+  STT: 'STT',
   SEND_MESSAGE: 'sendMessage',
   CLASSIFIER: 'classifier',
   MENU: 'menu',
