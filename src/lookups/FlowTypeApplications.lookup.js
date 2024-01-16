@@ -102,6 +102,7 @@ const FlowTypeApplications = Object.freeze({
     // FlowApp.CANCEL,
     // FlowApp.ABANDONED,
     FlowApp.ATTEMPT_RESULT,
+    FlowApp.STT,
   ],
   [EngineRoutingSchemaType.Default]: Object.values(FlowApp),
 });
