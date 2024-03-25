@@ -6,7 +6,7 @@ const FlowApp = Object.freeze({
   IF: 'if',
   JS: 'js',
   MATH: 'math',
-  MONO_PAY: 'monoPay',
+  PLATA_BY_MONO: 'plataByMono',
   START: 'start',
   STOP: 'stop',
   SWITCH: 'switch',
