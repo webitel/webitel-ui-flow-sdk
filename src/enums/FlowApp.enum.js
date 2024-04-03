@@ -7,6 +7,7 @@ const FlowApp = Object.freeze({
   JS: 'js',
   MATH: 'math',
   PLATA_BY_MONO: 'plataByMono',
+  I_FRAME: 'iFrame',
   START: 'start',
   STOP: 'stop',
   SWITCH: 'switch',

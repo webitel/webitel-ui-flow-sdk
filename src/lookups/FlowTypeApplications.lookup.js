@@ -15,6 +15,7 @@ const general = [
   FlowApp.JS,
   FlowApp.MATH,
   FlowApp.PLATA_BY_MONO,
+  FlowApp.I_FRAME,
   FlowApp.STRING,
   FlowApp.USER_INFO,
   FlowApp.SCHEMA,
