@@ -78,7 +78,6 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.GENERATE_LINK,
     FlowApp.CLASSIFIER,
     FlowApp.JOIN_QUEUE,
-    FlowApp.JOIN_AGENT,
     FlowApp.CHAT_HISTORY,
     // FlowApp.CC_POSITION,
     // FlowApp.AWT,
