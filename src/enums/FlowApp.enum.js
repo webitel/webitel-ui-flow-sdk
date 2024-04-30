@@ -73,6 +73,8 @@ const FlowApp = Object.freeze({
   ATTEMPT_RESULT: 'attemptResult',
   GET_EMAIL: 'getEmail',
   FORM_FILE: 'formFile',
+
+  CUSTOM_MODULE: 'customModule',
 });
 
 export default FlowApp;
