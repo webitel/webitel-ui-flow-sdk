@@ -94,6 +94,7 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.FORM_FILE,
     FlowApp.GENERATE_FORM,
     FlowApp.ATTEMPT_RESULT,
+    FlowApp.I_FRAME,
   ],
   [EngineRoutingSchemaType.Service]: [
     ...general,
@@ -102,7 +103,6 @@ const FlowTypeApplications = Object.freeze({
     // FlowApp.CANCEL,
     // FlowApp.ABANDONED,
     FlowApp.ATTEMPT_RESULT,
-    FlowApp.I_FRAME,
     FlowApp.STT,
   ],
   [EngineRoutingSchemaType.Default]: Object.values(FlowApp),
