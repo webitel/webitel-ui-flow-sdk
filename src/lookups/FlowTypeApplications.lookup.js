@@ -80,6 +80,7 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.CLASSIFIER,
     FlowApp.JOIN_QUEUE,
     FlowApp.CHAT_HISTORY,
+    FlowApp.CHAT_AI,
     // FlowApp.CC_POSITION,
     // FlowApp.AWT,
 
