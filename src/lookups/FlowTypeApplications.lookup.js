@@ -35,6 +35,8 @@ const general = [
   FlowApp.CALLBACK_QUEUE,
   FlowApp.WHILE,
   FlowApp.NOTIFICATION,
+  FlowApp.CUSTOM_CODE,
+  FlowApp.CUSTOM_MODULE,
 ];
 
 const FlowTypeApplications = Object.freeze({
@@ -87,6 +89,7 @@ const FlowTypeApplications = Object.freeze({
   ],
   [EngineRoutingSchemaType.Processing]: [
     ...general,
+    FlowApp.MAKE_CALL,
     FlowApp.FORM_TEXTFIELD,
     FlowApp.FORM_SELECT,
     FlowApp.FORM_TEXT,
