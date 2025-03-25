@@ -69,6 +69,7 @@ const FlowApp = Object.freeze({
   MAKE_CALL: 'makeCall',
   FORM_TEXTFIELD: 'formTextfield',
   FORM_SELECT: 'formSelect',
+  FORM_SELECT_SERVICE: 'formSelectService',
   FORM_TEXT: 'formText',
   FORM_DATETIME_PICKER: 'formDatetimePicker',
   FORM_RICH_TEXT_EDITOR: 'formRichTextEditor',
