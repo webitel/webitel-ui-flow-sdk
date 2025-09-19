@@ -102,6 +102,7 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.GENERATE_FORM,
     FlowApp.ATTEMPT_RESULT,
     FlowApp.I_FRAME,
+    FlowApp.OPEN_LINK,
   ],
   [EngineRoutingSchemaType.Service]: [
     ...general,

@@ -28,6 +28,7 @@ const FlowApp = Object.freeze({
   LIST_ADD: 'listAdd',
   WHILE: 'while',
   NOTIFICATION: 'notification',
+  OPEN_LINK: 'openLink',
 
   PLAYBACK: 'playback',
   RING_READY: 'ringReady',
