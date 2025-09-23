@@ -34,6 +34,7 @@ const general = [
   FlowApp.PATCH_MEMBERS,
   FlowApp.CALLBACK_QUEUE,
   FlowApp.WHILE,
+  FlowApp.OPEN_LINK,
   FlowApp.NOTIFICATION,
   FlowApp.CUSTOM_CODE,
   FlowApp.CUSTOM_MODULE,
@@ -102,7 +103,6 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.GENERATE_FORM,
     FlowApp.ATTEMPT_RESULT,
     FlowApp.I_FRAME,
-    FlowApp.OPEN_LINK,
   ],
   [EngineRoutingSchemaType.Service]: [
     ...general,
