@@ -76,6 +76,7 @@ const FlowApp = Object.freeze({
   FORM_DATETIME_PICKER: 'formDatetimePicker',
   FORM_RICH_TEXT_EDITOR: 'formRichTextEditor',
   FORM_SELECT_FROM_OBJECT: 'formSelectFromObject',
+  FORM_SELECT_CASE_STATUS: 'formSelectCaseStatus',
   GENERATE_FORM: 'generateForm',
   ATTEMPT_RESULT: 'attemptResult',
   GET_EMAIL: 'getEmail',
