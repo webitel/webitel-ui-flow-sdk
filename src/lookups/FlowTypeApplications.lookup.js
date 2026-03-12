@@ -98,6 +98,7 @@ const FlowTypeApplications = Object.freeze({
     FlowApp.FORM_DATETIME_PICKER,
     FlowApp.FORM_RICH_TEXT_EDITOR,
     FlowApp.FORM_SELECT_FROM_OBJECT,
+    FlowApp.FORM_SELECT_CASE_STATUS,
     FlowApp.FORM_TABLE,
     FlowApp.FORM_FILE,
     FlowApp.GENERATE_FORM,
